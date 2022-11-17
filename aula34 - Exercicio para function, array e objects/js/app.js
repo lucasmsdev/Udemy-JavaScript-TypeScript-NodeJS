@@ -1,6 +1,6 @@
 function meuEscopo () {
-  const form = document.querySelector('.form'); //sselecionou a classe 'form' la do index.html
-  const resultado = document.querySelector('.resultado'); //selicionou a classe resultado la no html
+  const form = document.querySelector('.form'); 
+  const resultado = document.querySelector('.resultado'); 
 
   const pessoas = [];
 
@@ -32,7 +32,7 @@ function meuEscopo () {
    
   }
 
-  form.addEventListener('submit', recebeEventoForm); //adicionar o seguranca de evento, submit e igual onsubmit,para enviar formulario
+  form.addEventListener('submit', recebeEventoForm); 
 
 
 
